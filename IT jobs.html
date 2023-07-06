@@ -1,0 +1,67 @@
+
+            <html>
+<head>
+    
+    <title>IT Jobs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        
+        #job-list {
+            margin-top: 20px;
+        }
+        
+        .job-item {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url(as.jpg);background-size:cover;">
+    
+    
+    <h1>IT Jobs</h1>
+
+    <div id="job-list">
+        <div class="job-item">
+            <h2>Web Developer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod velit mi, sit amet faucibus tortor rutrum vel.</p>
+            <button onclick="applyJob('Web Developer')">Apply</button>
+        </div>
+        
+        <div class="job-item">
+            <h2>Software Engineer</h2>
+            <p>Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris feugiat magna in urna accumsan, vitae dapibus erat facilisis.</p>
+            <button onclick="applyJob('Software Engineer')">Apply</button>
+        </div>
+        
+        <div class="job-item">
+            <h2>Data Analyst</h2>
+            <p>Fusce et sem scelerisque, rhoncus massa nec, bibendum velit. Phasellus id efficitur enim, et commodo orci.</p>
+            <button onclick="applyJob('Data Analyst')">Apply</button>
+        </div>
+    </div>
+
+    <script>
+        function applyJob(jobTitle) {
+            alert("You have applied for the " + jobTitle + " position.");
+        }
+    </script>
+    <br><br>
+   
+   
+</body>
+</html>
+        
